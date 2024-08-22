@@ -10,19 +10,17 @@ import { UsersModule } from './users/users.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    GraphQLModule.forRoot<ApolloDriverConfig>(
-    {
+    GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       introspection: true,
       fieldResolverEnhancers: ['guards'],
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
-      buildSchemaOptions:{
+      buildSchemaOptions: {
         numberScalarMode: 'integer',
-
-      }
-    }
-  ),
-    UsersModule],
+      },
+    }),
+    UsersModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

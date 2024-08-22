@@ -8,13 +8,13 @@ type User {
 
 type Query {
   users: [User!]!
-  user(id: Int!): User!
+  user(uid: String!): User!
 }
 
 type Mutation {
   createUser(createUserInput: CreateUserInput!): User!
-  updateUser(updateUserInput: UpdateUserInput!): User!
-  removeUser(id: Int!): User!
+  updateUser(uid: String!, updateUserInput: UpdateUserInput!): User!
+  removeUser(uid: String!): User!
 }
 
 input CreateUserInput {
