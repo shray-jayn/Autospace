@@ -50,7 +50,7 @@ export class UsersController {
       ...(searchBy
         ? { where: { [searchBy]: { contains: search, mode: 'insensitive' } } }
         : null),
-    })
+    });
   }
 
   @ApiOkResponse({ type: UserEntity })
