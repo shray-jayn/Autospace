@@ -9,14 +9,14 @@ import { PrismaModule } from './common/prisma/prisma.module';
 import { UsersModule } from './models/users/users.module';
 import { JwtModule } from '@nestjs/jwt';
 
-const MAX_AGE = 24 * 60 * 60 
+const MAX_AGE = 24 * 60 * 60;
 @Module({
   imports: [
     ConfigModule.forRoot(),
     JwtModule.register({
-      global:true,
-      secret:process.env.JWT_SECRET,
-      signOptions: {expiresIn: MAX_AGE}
+      global: true,
+      secret: process.env.JWT_SECRET,
+      signOptions: { expiresIn: MAX_AGE },
     }),
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
@@ -29,7 +29,7 @@ const MAX_AGE = 24 * 60 * 60
     }),
 
     PrismaModule,
-    UsersModule
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
