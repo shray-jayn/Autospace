@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import * as morgan from 'morgan'; 
+// import * as morgan from 'morgan';
 
 const port = 3000;
 
@@ -9,7 +9,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors();
 
-  app.use(morgan('combined'));
+  // app.use(morgan('combined'));
 
   const config = new DocumentBuilder()
     .setTitle('Autospace | Shray Jain')
