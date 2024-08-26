@@ -22,7 +22,8 @@
     "build": "yarn nx run-many -t build",
     "dev": "yarn nx run-many -t dev",
     "validate": "yarn format:write && yarn tsc && yarn lint && yarn build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cloc": "npx cloc --exclude-dir=node_modules,dist,build,yarn.lock,package.json,generated.tsx,.next,.nx ."
   },
   "keywords": [],
   "author": "",
