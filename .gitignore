@@ -1,52 +1,8 @@
-# Build and output directories
-build/
-dist/
-.next/
-
-# Environment variables
+node_modules
+build
+dist
+.next
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Node modules
-node_modules/
-.pnpm-store/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Cache and temporary files
-.cache/
-tmp/
-temp/
-
-# IDE and editor files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Miscellaneous
-*.lock
-package-lock.json
-yarn.lock
-.pnpm-debug.log
-
 
 
 .nx/cache
-.nx/workspace-data

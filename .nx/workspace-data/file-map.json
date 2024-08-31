@@ -1,0 +1,1120 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.2",
+  "deps": {
+    "autospace": "file:",
+    "husky": "^8.0.0",
+    "nx": "19.6.2",
+    "prettier": "^3.0.0",
+    "typescript": "^5.5.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "3975688376918412513"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "14193209146131028710"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "15324714788084809874"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6162348574396422712"
+      },
+      {
+        "file": "package.json",
+        "hash": "13780783282132288"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1527717912508394059"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "1717259176958631196"
+      }
+    ],
+    "projectFileMap": {
+      "@autospace/sample-lib": [
+        {
+          "file": "libs/sample-lib/index.ts",
+          "hash": "3876930869660554065"
+        },
+        {
+          "file": "libs/sample-lib/package.json",
+          "hash": "6993432985236782914"
+        },
+        {
+          "file": "libs/sample-lib/tsconfig.json",
+          "hash": "14590710882709848906"
+        }
+      ],
+      "@autospace/network": [
+        {
+          "file": "libs/network/codegen.ts",
+          "hash": "673003853108463620"
+        },
+        {
+          "file": "libs/network/package.json",
+          "hash": "1313639618116712584",
+          "deps": [
+            "npm:react",
+            "npm:@graphql-codegen/cli",
+            "npm:@graphql-codegen/named-operations-object",
+            "npm:@graphql-codegen/typed-document-node",
+            "npm:@apollo/client"
+          ]
+        },
+        {
+          "file": "libs/network/src/config/apollo.tsx",
+          "hash": "11158244085075048020"
+        },
+        {
+          "file": "libs/network/src/gql/generated.tsx",
+          "hash": "10641843591233610742"
+        },
+        {
+          "file": "libs/network/src/gql/queries.graphql",
+          "hash": "2680432402067096018"
+        },
+        {
+          "file": "libs/network/tsconfig.json",
+          "hash": "12053352178282715962"
+        }
+      ],
+      "@autospace/web": [
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "3678353490261779923",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next@14.2.5",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript@5.4.5",
+            "@autospace/sample-lib",
+            "npm:autoprefixer",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/globals.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "2907880558065976372"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "15525797129536741291"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "776514114970524489"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ],
+      "@autospace/api": [
+        {
+          "file": "apps/api/.env.example",
+          "hash": "1887901518666600425"
+        },
+        {
+          "file": "apps/api/.eslintrc.js",
+          "hash": "7461846271827386206"
+        },
+        {
+          "file": "apps/api/.gitignore",
+          "hash": "547753584460066287"
+        },
+        {
+          "file": "apps/api/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "apps/api/README.md",
+          "hash": "15018899818891883319"
+        },
+        {
+          "file": "apps/api/docker-compose.yml",
+          "hash": "13679263941518240661"
+        },
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "7303373952232276918"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "5741620277070991917",
+          "deps": [
+            "npm:@nestjs/cli@10.4.5",
+            "npm:@nestjs/schematics@10.1.4",
+            "npm:@nestjs/testing@10.4.1",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node@20.16.2",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:nestjs-prisma-codegen",
+            "npm:prettier",
+            "npm:prisma",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript",
+            "npm:@apollo/server",
+            "@autospace/sample-lib",
+            "npm:@nestjs/apollo@12.2.0",
+            "npm:@nestjs/common@10.4.1",
+            "npm:@nestjs/config@3.2.3",
+            "npm:@nestjs/core@10.4.1",
+            "npm:@nestjs/graphql@12.2.0",
+            "npm:@nestjs/jwt@10.2.0",
+            "npm:@nestjs/platform-express@10.4.1",
+            "npm:@nestjs/swagger@7.4.0",
+            "npm:@prisma/client",
+            "npm:bcryptjs",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:graphql",
+            "npm:reflect-metadata",
+            "npm:rxjs",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "apps/api/prisma/migrations/20240819161658_init/migration.sql",
+          "hash": "17991940606836201096"
+        },
+        {
+          "file": "apps/api/prisma/migrations/20240823173453_add_user_image/migration.sql",
+          "hash": "2492629257202547793"
+        },
+        {
+          "file": "apps/api/prisma/migrations/20240824075444_init/migration.sql",
+          "hash": "3727955513567689201"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "5278839983338653787"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "4423606940400409847"
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "2727664763654384995"
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "4552329938751326480"
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "10314010848017747588"
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "13790631590534670665"
+        },
+        {
+          "file": "apps/api/src/common/auth/auth.decorator.ts",
+          "hash": "12751477917174492460"
+        },
+        {
+          "file": "apps/api/src/common/auth/auth.guard.ts",
+          "hash": "17702836144080331271"
+        },
+        {
+          "file": "apps/api/src/common/auth/util.ts",
+          "hash": "11321517643038472839"
+        },
+        {
+          "file": "apps/api/src/common/dtos/common.dto.ts",
+          "hash": "1934167735380686350"
+        },
+        {
+          "file": "apps/api/src/common/dtos/common.input.ts",
+          "hash": "2977824803178952216"
+        },
+        {
+          "file": "apps/api/src/common/prisma/prisma.module.ts",
+          "hash": "10238961258611182846"
+        },
+        {
+          "file": "apps/api/src/common/prisma/prisma.service.ts",
+          "hash": "1045870061148676476"
+        },
+        {
+          "file": "apps/api/src/common/types/index.ts",
+          "hash": "12784110671031659993"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "1586354829395608676"
+        },
+        {
+          "file": "apps/api/src/models/addresses/addresses.module.ts",
+          "hash": "15374675243169162368"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/addresses.resolver.ts",
+          "hash": "6644123331857915489"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/addresses.service.ts",
+          "hash": "17443493595934784320"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/dtos/create-address.input.ts",
+          "hash": "8195320084703773256"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/dtos/find.args.ts",
+          "hash": "1675086944397286169"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/dtos/order-by.args.ts",
+          "hash": "8027549726527316744"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/dtos/update-address.input.ts",
+          "hash": "8138159637577382246"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/dtos/where.args.ts",
+          "hash": "5562385794362152483"
+        },
+        {
+          "file": "apps/api/src/models/addresses/graphql/entity/address.entity.ts",
+          "hash": "9538083737040504333"
+        },
+        {
+          "file": "apps/api/src/models/addresses/rest/addresses.controller.ts",
+          "hash": "4582011941624847838"
+        },
+        {
+          "file": "apps/api/src/models/addresses/rest/dtos/create.dto.ts",
+          "hash": "5973497228726931901"
+        },
+        {
+          "file": "apps/api/src/models/addresses/rest/dtos/query.dto.ts",
+          "hash": "5615377448071536151"
+        },
+        {
+          "file": "apps/api/src/models/addresses/rest/dtos/update.dto.ts",
+          "hash": "2108188635898133991"
+        },
+        {
+          "file": "apps/api/src/models/addresses/rest/entity/address.entity.ts",
+          "hash": "7434152563245437601"
+        },
+        {
+          "file": "apps/api/src/models/admins/admins.module.ts",
+          "hash": "4738461424662311593"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/admins.resolver.ts",
+          "hash": "11325717581154843085"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/admins.service.ts",
+          "hash": "13023024572136706797"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/dtos/create-admin.input.ts",
+          "hash": "4274518748932013740"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/dtos/find.args.ts",
+          "hash": "13408183666605023750"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/dtos/order-by.args.ts",
+          "hash": "1143295781196607492"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/dtos/update-admin.input.ts",
+          "hash": "4893257919011187807"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/dtos/where.args.ts",
+          "hash": "15424389750149324140"
+        },
+        {
+          "file": "apps/api/src/models/admins/graphql/entity/admin.entity.ts",
+          "hash": "3593735390156868611"
+        },
+        {
+          "file": "apps/api/src/models/admins/rest/admins.controller.ts",
+          "hash": "17610268504226358458"
+        },
+        {
+          "file": "apps/api/src/models/admins/rest/dtos/create.dto.ts",
+          "hash": "15523898372017336151"
+        },
+        {
+          "file": "apps/api/src/models/admins/rest/dtos/query.dto.ts",
+          "hash": "7080211725021192840"
+        },
+        {
+          "file": "apps/api/src/models/admins/rest/dtos/update.dto.ts",
+          "hash": "9145812469421036285"
+        },
+        {
+          "file": "apps/api/src/models/admins/rest/entity/admin.entity.ts",
+          "hash": "2824641295148983660"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/booking-timelines.module.ts",
+          "hash": "1272923478561682570"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/booking-timelines.resolver.ts",
+          "hash": "2264500161768603470"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/booking-timelines.service.ts",
+          "hash": "1983140856002865548"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/dtos/create-booking-timeline.input.ts",
+          "hash": "12141820366142736630"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/dtos/find.args.ts",
+          "hash": "5356553165672501193"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/dtos/order-by.args.ts",
+          "hash": "2087326374233380156"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/dtos/update-booking-timeline.input.ts",
+          "hash": "5832282326470138751"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/dtos/where.args.ts",
+          "hash": "18216016323439012804"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/graphql/entity/booking-timeline.entity.ts",
+          "hash": "8056448873318086145"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/rest/booking-timelines.controller.ts",
+          "hash": "8010650077399855735"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/rest/dtos/create.dto.ts",
+          "hash": "10186244929522834072"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/rest/dtos/query.dto.ts",
+          "hash": "10180705468096064848"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/rest/dtos/update.dto.ts",
+          "hash": "15390842431168200978"
+        },
+        {
+          "file": "apps/api/src/models/booking-timelines/rest/entity/booking-timeline.entity.ts",
+          "hash": "3084799871593329544"
+        },
+        {
+          "file": "apps/api/src/models/bookings/bookings.module.ts",
+          "hash": "16865496499574462624"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/bookings.resolver.ts",
+          "hash": "16824518944987020670"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/bookings.service.ts",
+          "hash": "1763767741506501651"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/dtos/create-booking.input.ts",
+          "hash": "12644221062510548519"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/dtos/find.args.ts",
+          "hash": "1526111400225758213"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/dtos/order-by.args.ts",
+          "hash": "16976398914263542579"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/dtos/update-booking.input.ts",
+          "hash": "6902512710910894669"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/dtos/where.args.ts",
+          "hash": "9853885310310182590"
+        },
+        {
+          "file": "apps/api/src/models/bookings/graphql/entity/booking.entity.ts",
+          "hash": "13032902953279133568"
+        },
+        {
+          "file": "apps/api/src/models/bookings/rest/bookings.controller.ts",
+          "hash": "8974997791478190338"
+        },
+        {
+          "file": "apps/api/src/models/bookings/rest/dtos/create.dto.ts",
+          "hash": "9917367566063690546"
+        },
+        {
+          "file": "apps/api/src/models/bookings/rest/dtos/query.dto.ts",
+          "hash": "6830776203287769239"
+        },
+        {
+          "file": "apps/api/src/models/bookings/rest/dtos/update.dto.ts",
+          "hash": "7035046986723546289"
+        },
+        {
+          "file": "apps/api/src/models/bookings/rest/entity/booking.entity.ts",
+          "hash": "1082000352771629791"
+        },
+        {
+          "file": "apps/api/src/models/companies/companies.module.ts",
+          "hash": "4306063558940206094"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/companies.resolver.ts",
+          "hash": "4600938372234612010"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/companies.service.ts",
+          "hash": "10992815672465537772"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/dtos/create-company.input.ts",
+          "hash": "4256794090230956439"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/dtos/find.args.ts",
+          "hash": "5308853125863754444"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/dtos/order-by.args.ts",
+          "hash": "10431428341591324642"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/dtos/update-company.input.ts",
+          "hash": "6076802622885185298"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/dtos/where.args.ts",
+          "hash": "13999033314946946941"
+        },
+        {
+          "file": "apps/api/src/models/companies/graphql/entity/company.entity.ts",
+          "hash": "8859173058575983972"
+        },
+        {
+          "file": "apps/api/src/models/companies/rest/companies.controller.ts",
+          "hash": "6181195385193717714"
+        },
+        {
+          "file": "apps/api/src/models/companies/rest/dtos/create.dto.ts",
+          "hash": "17136206346823413708"
+        },
+        {
+          "file": "apps/api/src/models/companies/rest/dtos/query.dto.ts",
+          "hash": "16639942452150029069"
+        },
+        {
+          "file": "apps/api/src/models/companies/rest/dtos/update.dto.ts",
+          "hash": "4770577409362078266"
+        },
+        {
+          "file": "apps/api/src/models/companies/rest/entity/company.entity.ts",
+          "hash": "798513466655720186"
+        },
+        {
+          "file": "apps/api/src/models/customers/customers.module.ts",
+          "hash": "2125091023888562516"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/customers.resolver.ts",
+          "hash": "11453722148001750698"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/customers.service.ts",
+          "hash": "2524000950476720577"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/dtos/create-customer.input.ts",
+          "hash": "8902072384852894635"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/dtos/find.args.ts",
+          "hash": "10089267568989802416"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/dtos/order-by.args.ts",
+          "hash": "16040572943251504426"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/dtos/update-customer.input.ts",
+          "hash": "13507374201404190390"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/dtos/where.args.ts",
+          "hash": "18378186425366940592"
+        },
+        {
+          "file": "apps/api/src/models/customers/graphql/entity/customer.entity.ts",
+          "hash": "3002676693001465161"
+        },
+        {
+          "file": "apps/api/src/models/customers/rest/customers.controller.ts",
+          "hash": "9260244904109096041"
+        },
+        {
+          "file": "apps/api/src/models/customers/rest/dtos/create.dto.ts",
+          "hash": "4810700751728303072"
+        },
+        {
+          "file": "apps/api/src/models/customers/rest/dtos/query.dto.ts",
+          "hash": "141776639450986552"
+        },
+        {
+          "file": "apps/api/src/models/customers/rest/dtos/update.dto.ts",
+          "hash": "543654478586746015"
+        },
+        {
+          "file": "apps/api/src/models/customers/rest/entity/customer.entity.ts",
+          "hash": "15737395502665210062"
+        },
+        {
+          "file": "apps/api/src/models/garages/garages.module.ts",
+          "hash": "10592709878496067202"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/dtos/create-garage.input.ts",
+          "hash": "6987542002460689093"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/dtos/find.args.ts",
+          "hash": "6325705087882666514"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/dtos/order-by.args.ts",
+          "hash": "6769604890093497765"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/dtos/update-garage.input.ts",
+          "hash": "7546356706032945141"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/dtos/where.args.ts",
+          "hash": "4786359886589183799"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/entity/garage.entity.ts",
+          "hash": "642081303967656316"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/garages.resolver.ts",
+          "hash": "6416440505428366255"
+        },
+        {
+          "file": "apps/api/src/models/garages/graphql/garages.service.ts",
+          "hash": "17373902231933921925"
+        },
+        {
+          "file": "apps/api/src/models/garages/rest/dtos/create.dto.ts",
+          "hash": "13305703168688261261"
+        },
+        {
+          "file": "apps/api/src/models/garages/rest/dtos/query.dto.ts",
+          "hash": "6520019553041140053"
+        },
+        {
+          "file": "apps/api/src/models/garages/rest/dtos/update.dto.ts",
+          "hash": "7663909214550437717"
+        },
+        {
+          "file": "apps/api/src/models/garages/rest/entity/garage.entity.ts",
+          "hash": "14315429045853950813"
+        },
+        {
+          "file": "apps/api/src/models/garages/rest/garages.controller.ts",
+          "hash": "13613106251337460389"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/dtos/create-manager.input.ts",
+          "hash": "5998003354651366838"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/dtos/find.args.ts",
+          "hash": "4280557329145666654"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/dtos/order-by.args.ts",
+          "hash": "9413289684382078090"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/dtos/update-manager.input.ts",
+          "hash": "8077124430204978563"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/dtos/where.args.ts",
+          "hash": "5573157682545588483"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/entity/manager.entity.ts",
+          "hash": "7881693251712000514"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/managers.resolver.ts",
+          "hash": "15175908973156884393"
+        },
+        {
+          "file": "apps/api/src/models/managers/graphql/managers.service.ts",
+          "hash": "2378997029665601055"
+        },
+        {
+          "file": "apps/api/src/models/managers/managers.module.ts",
+          "hash": "10076187704399785676"
+        },
+        {
+          "file": "apps/api/src/models/managers/rest/dtos/create.dto.ts",
+          "hash": "4522823378848645806"
+        },
+        {
+          "file": "apps/api/src/models/managers/rest/dtos/query.dto.ts",
+          "hash": "2643775087285806195"
+        },
+        {
+          "file": "apps/api/src/models/managers/rest/dtos/update.dto.ts",
+          "hash": "1231153556571171228"
+        },
+        {
+          "file": "apps/api/src/models/managers/rest/entity/manager.entity.ts",
+          "hash": "14869666277840907104"
+        },
+        {
+          "file": "apps/api/src/models/managers/rest/managers.controller.ts",
+          "hash": "9465220124846261615"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/dtos/create-review.input.ts",
+          "hash": "4417758055438571468"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/dtos/find.args.ts",
+          "hash": "13984015861437398408"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/dtos/order-by.args.ts",
+          "hash": "16646557847529851841"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/dtos/update-review.input.ts",
+          "hash": "8638751309347606316"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/dtos/where.args.ts",
+          "hash": "16640698637975563480"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/entity/review.entity.ts",
+          "hash": "11216627132859964842"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/reviews.resolver.ts",
+          "hash": "12115117958717921394"
+        },
+        {
+          "file": "apps/api/src/models/reviews/graphql/reviews.service.ts",
+          "hash": "16352726812126658048"
+        },
+        {
+          "file": "apps/api/src/models/reviews/rest/dtos/create.dto.ts",
+          "hash": "8116580300878302506"
+        },
+        {
+          "file": "apps/api/src/models/reviews/rest/dtos/query.dto.ts",
+          "hash": "10418455327959866725"
+        },
+        {
+          "file": "apps/api/src/models/reviews/rest/dtos/update.dto.ts",
+          "hash": "9010874951854967880"
+        },
+        {
+          "file": "apps/api/src/models/reviews/rest/entity/review.entity.ts",
+          "hash": "10295992743393032"
+        },
+        {
+          "file": "apps/api/src/models/reviews/rest/reviews.controller.ts",
+          "hash": "7532771833366111909"
+        },
+        {
+          "file": "apps/api/src/models/reviews/reviews.module.ts",
+          "hash": "11161434567161017952"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/dtos/create-slot.input.ts",
+          "hash": "14486734107106836961"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/dtos/find.args.ts",
+          "hash": "4369939551746444222"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/dtos/order-by.args.ts",
+          "hash": "11077375871622866299"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/dtos/update-slot.input.ts",
+          "hash": "9158092624927202459"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/dtos/where.args.ts",
+          "hash": "5755455526091465676"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/entity/slot.entity.ts",
+          "hash": "3627293822976448165"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/slots.resolver.ts",
+          "hash": "2920931479094413727"
+        },
+        {
+          "file": "apps/api/src/models/slots/graphql/slots.service.ts",
+          "hash": "17683765459799078902"
+        },
+        {
+          "file": "apps/api/src/models/slots/rest/dtos/create.dto.ts",
+          "hash": "15359943893231034656"
+        },
+        {
+          "file": "apps/api/src/models/slots/rest/dtos/query.dto.ts",
+          "hash": "8257339456892598976"
+        },
+        {
+          "file": "apps/api/src/models/slots/rest/dtos/update.dto.ts",
+          "hash": "10779470290763309055"
+        },
+        {
+          "file": "apps/api/src/models/slots/rest/entity/slot.entity.ts",
+          "hash": "7934285414194445397"
+        },
+        {
+          "file": "apps/api/src/models/slots/rest/slots.controller.ts",
+          "hash": "18317451583292391778"
+        },
+        {
+          "file": "apps/api/src/models/slots/slots.module.ts",
+          "hash": "5364568585723142391"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/dtos/create-user.input.ts",
+          "hash": "14165971296892344968"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/dtos/find.args.ts",
+          "hash": "3230308515392106176"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/dtos/order-by.args.ts",
+          "hash": "16427631934841114141"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/dtos/update-user.input.ts",
+          "hash": "12457025114288375511"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/dtos/where.args.ts",
+          "hash": "12234893871334376684"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/entity/user.entity.ts",
+          "hash": "16230834948874976688"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/users.resolver.ts",
+          "hash": "8546840265469357388"
+        },
+        {
+          "file": "apps/api/src/models/users/graphql/users.service.ts",
+          "hash": "10158286884559606877"
+        },
+        {
+          "file": "apps/api/src/models/users/rest/dtos/create.dto.ts",
+          "hash": "3904513872696789038"
+        },
+        {
+          "file": "apps/api/src/models/users/rest/dtos/query.dto.ts",
+          "hash": "8482205000946766216"
+        },
+        {
+          "file": "apps/api/src/models/users/rest/dtos/update.dto.ts",
+          "hash": "12881685194223706454"
+        },
+        {
+          "file": "apps/api/src/models/users/rest/entity/user.entity.ts",
+          "hash": "15729492598828657666"
+        },
+        {
+          "file": "apps/api/src/models/users/rest/users.controller.ts",
+          "hash": "11185857105791276802"
+        },
+        {
+          "file": "apps/api/src/models/users/users.module.ts",
+          "hash": "15163604134336005369"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/dtos/create-valet-assignment.input.ts",
+          "hash": "272818453898137138"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/dtos/find.args.ts",
+          "hash": "11184611214877231935"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/dtos/order-by.args.ts",
+          "hash": "3828989050154924509"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/dtos/update-valet-assignment.input.ts",
+          "hash": "17818925688700540908"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/dtos/where.args.ts",
+          "hash": "13388632136813893782"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/entity/valet-assignment.entity.ts",
+          "hash": "10329744609825243007"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/valet-assignments.resolver.ts",
+          "hash": "16045048924426081201"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/graphql/valet-assignments.service.ts",
+          "hash": "1403106214946814425"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/rest/dtos/create.dto.ts",
+          "hash": "3655116953044976143"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/rest/dtos/query.dto.ts",
+          "hash": "8001883317906684684"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/rest/dtos/update.dto.ts",
+          "hash": "16635322008335025148"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/rest/entity/valet-assignment.entity.ts",
+          "hash": "15179389903993119797"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/rest/valet-assignments.controller.ts",
+          "hash": "134114468891857203"
+        },
+        {
+          "file": "apps/api/src/models/valet-assignments/valet-assignments.module.ts",
+          "hash": "18255735802999632911"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/dtos/create-valet.input.ts",
+          "hash": "12898008315642816808"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/dtos/find.args.ts",
+          "hash": "7000181736894721833"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/dtos/order-by.args.ts",
+          "hash": "12755485187771452230"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/dtos/update-valet.input.ts",
+          "hash": "9216091028215487592"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/dtos/where.args.ts",
+          "hash": "1167353193908996036"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/entity/valet.entity.ts",
+          "hash": "7597761955002931321"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/valets.resolver.ts",
+          "hash": "6497970380919007872"
+        },
+        {
+          "file": "apps/api/src/models/valets/graphql/valets.service.ts",
+          "hash": "13405651455243706499"
+        },
+        {
+          "file": "apps/api/src/models/valets/rest/dtos/create.dto.ts",
+          "hash": "2418046962159871488"
+        },
+        {
+          "file": "apps/api/src/models/valets/rest/dtos/query.dto.ts",
+          "hash": "16080614293463294513"
+        },
+        {
+          "file": "apps/api/src/models/valets/rest/dtos/update.dto.ts",
+          "hash": "14439731368329426994"
+        },
+        {
+          "file": "apps/api/src/models/valets/rest/entity/valet.entity.ts",
+          "hash": "3979843185224638112"
+        },
+        {
+          "file": "apps/api/src/models/valets/rest/valets.controller.ts",
+          "hash": "9162453186548591393"
+        },
+        {
+          "file": "apps/api/src/models/valets/valets.module.ts",
+          "hash": "6544572483498687927"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/dtos/create-verification.input.ts",
+          "hash": "8564371668120005566"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/dtos/find.args.ts",
+          "hash": "13062156308073452762"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/dtos/order-by.args.ts",
+          "hash": "4203451613838262221"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/dtos/update-verification.input.ts",
+          "hash": "15070848830887510708"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/dtos/where.args.ts",
+          "hash": "8858341347350207596"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/entity/verification.entity.ts",
+          "hash": "388179819289658091"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/verifications.resolver.ts",
+          "hash": "12781919226519126474"
+        },
+        {
+          "file": "apps/api/src/models/verifications/graphql/verifications.service.ts",
+          "hash": "7551690212312552662"
+        },
+        {
+          "file": "apps/api/src/models/verifications/rest/dtos/create.dto.ts",
+          "hash": "16324272126504573287"
+        },
+        {
+          "file": "apps/api/src/models/verifications/rest/dtos/query.dto.ts",
+          "hash": "6483307270594122667"
+        },
+        {
+          "file": "apps/api/src/models/verifications/rest/dtos/update.dto.ts",
+          "hash": "15938415042086471038"
+        },
+        {
+          "file": "apps/api/src/models/verifications/rest/entity/verification.entity.ts",
+          "hash": "2009828148406600256"
+        },
+        {
+          "file": "apps/api/src/models/verifications/rest/verifications.controller.ts",
+          "hash": "9633022585944784903"
+        },
+        {
+          "file": "apps/api/src/models/verifications/verifications.module.ts",
+          "hash": "14592269712637543058"
+        },
+        {
+          "file": "apps/api/src/schema.gql",
+          "hash": "5596089221021697944"
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "15142680097789702029"
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "1876265833229380624"
+        }
+      ]
+    }
+  }
+}
