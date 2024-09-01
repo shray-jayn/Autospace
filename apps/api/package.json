@@ -27,6 +27,7 @@
     "@apollo/server": "^4.11.0",
     "@autospace/api": "file:",
     "@autospace/sample-lib": "*",
+    "@autospace/network": "*",
     "@nestjs/apollo": "^12.2.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.2.3",

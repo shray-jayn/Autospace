@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@autospace/sample-lib": "*",
+    "@autospace/network": "*",
     "@autospace/web": "file:",
     "autoprefixer": "^10.4.20",
     "next": "14.2.5",

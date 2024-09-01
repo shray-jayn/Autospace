@@ -10347,18 +10347,18 @@
         "hash": "sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA=="
       }
     },
-    "npm:tmp": {
+    "npm:tmp@0.0.33": {
       "type": "npm",
-      "name": "npm:tmp",
+      "name": "npm:tmp@0.0.33",
       "data": {
         "version": "0.0.33",
         "packageName": "tmp",
         "hash": "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw=="
       }
     },
-    "npm:tmp@0.2.3": {
+    "npm:tmp": {
       "type": "npm",
-      "name": "npm:tmp@0.2.3",
+      "name": "npm:tmp",
       "data": {
         "version": "0.2.3",
         "packageName": "tmp",
@@ -11423,6 +11423,11 @@
       },
       {
         "source": "@autospace/api",
+        "target": "@autospace/network",
+        "type": "static"
+      },
+      {
+        "source": "@autospace/api",
         "target": "npm:@nestjs/apollo@12.2.0",
         "type": "static"
       },
@@ -11546,6 +11551,11 @@
       {
         "source": "@autospace/web",
         "target": "@autospace/sample-lib",
+        "type": "static"
+      },
+      {
+        "source": "@autospace/web",
+        "target": "@autospace/network",
         "type": "static"
       },
       {
@@ -19934,7 +19944,7 @@
       },
       {
         "source": "npm:external-editor",
-        "target": "npm:tmp",
+        "target": "npm:tmp@0.0.33",
         "type": "static"
       }
     ],
@@ -23140,7 +23150,7 @@
       },
       {
         "source": "npm:nx",
-        "target": "npm:tmp@0.2.3",
+        "target": "npm:tmp",
         "type": "static"
       },
       {
@@ -25113,9 +25123,9 @@
         "type": "static"
       }
     ],
-    "npm:tmp": [
+    "npm:tmp@0.0.33": [
       {
-        "source": "npm:tmp",
+        "source": "npm:tmp@0.0.33",
         "target": "npm:os-tmpdir",
         "type": "static"
       }

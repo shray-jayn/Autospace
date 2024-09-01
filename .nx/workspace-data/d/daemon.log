@@ -952,3 +952,14 @@
 [NX Daemon Server] - 2024-08-31T18:33:58.544Z - Sending EndRun request
 [NX Daemon Server] - 2024-08-31T18:33:58.587Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-08-31T18:33:59.346Z - Done sending EndRun request
+[NX Daemon Server] - 2024-09-01T04:26:38.869Z - Started listening on: \\.\pipe\nx\C:\Users\HP\AppData\Local\Temp\cfe964e6bb5a77999e9b\d.sock
+[NX Daemon Server] - 2024-09-01T04:26:38.929Z - [WATCHER]: Subscribed to changes within: E:\Projects\Autospace (native)
+[NX Daemon Server] - 2024-09-01T04:26:38.938Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-01T04:26:38.941Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T04:26:38.949Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-01T04:26:38.964Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-01T04:26:38.991Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-01T04:26:38.992Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 29.
+[NX Daemon Server] - 2024-09-01T04:26:38.992Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-01T04:26:38.994Z - [WATCHER]: Stopping the watcher for E:\Projects\Autospace (sources)
+[NX Daemon Server] - 2024-09-01T04:26:38.996Z - [WATCHER]: Stopping the watcher for E:\Projects\Autospace (outputs)

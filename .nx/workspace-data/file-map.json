@@ -13,20 +13,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".gitignore",
+        "hash": "8258668164414709802"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "17542638195316699415"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "15185374989492744169"
+      },
+      {
         "file": "README.md",
         "hash": "8840258633690832595"
       },
       {
         "file": "nx.json",
-        "hash": "6162348574396422712"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3975688376918412513"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "1561908994012596016"
+        "hash": "5374793223192268031"
       },
       {
         "file": "package.json",
@@ -34,15 +38,11 @@
       },
       {
         "file": "tsconfig.json",
-        "hash": "1527717912508394059"
+        "hash": "17553373538878946914"
       },
       {
         "file": "yarn.lock",
-        "hash": "1717259176958631196"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "15324714788084809874"
+        "hash": "8301802078536327999"
       }
     ],
     "projectFileMap": {
@@ -52,8 +52,12 @@
           "hash": "673003853108463620"
         },
         {
+          "file": "libs/network/package-lock.json",
+          "hash": "17876225660235604721"
+        },
+        {
           "file": "libs/network/package.json",
-          "hash": "1313639618116712584",
+          "hash": "12794512137725901183",
           "deps": [
             "npm:react",
             "npm:@graphql-codegen/cli",
@@ -72,11 +76,99 @@
         },
         {
           "file": "libs/network/src/gql/queries.graphql",
-          "hash": "2680432402067096018"
+          "hash": "4484131161109645357"
         },
         {
           "file": "libs/network/tsconfig.json",
           "hash": "12053352178282715962"
+        }
+      ],
+      "@autospace/sample-lib": [
+        {
+          "file": "libs/sample-lib/index.ts",
+          "hash": "3876930869660554065"
+        },
+        {
+          "file": "libs/sample-lib/package.json",
+          "hash": "6993432985236782914"
+        },
+        {
+          "file": "libs/sample-lib/tsconfig.json",
+          "hash": "14590710882709848906"
+        }
+      ],
+      "@autospace/web": [
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "14795959431407842278"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "1992404412951644809"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "3099306030354460128"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "5957381037828636678",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next@14.2.5",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript@5.4.5",
+            "@autospace/sample-lib",
+            "@autospace/network",
+            "npm:autoprefixer",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/globals.css",
+          "hash": "10582656168007810803"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "2907880558065976372"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "15525797129536741291"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "776514114970524489"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
         }
       ],
       "@autospace/api": [
@@ -110,7 +202,7 @@
         },
         {
           "file": "apps/api/package.json",
-          "hash": "5741620277070991917",
+          "hash": "5205087221004780950",
           "deps": [
             "npm:@nestjs/cli@10.4.5",
             "npm:@nestjs/schematics@10.1.4",
@@ -137,6 +229,7 @@
             "npm:typescript",
             "npm:@apollo/server",
             "@autospace/sample-lib",
+            "@autospace/network",
             "npm:@nestjs/apollo@12.2.0",
             "npm:@nestjs/common@10.4.1",
             "npm:@nestjs/config@3.2.3",
@@ -1030,93 +1123,6 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "1876265833229380624"
-        }
-      ],
-      "@autospace/web": [
-        {
-          "file": "apps/web/.eslintrc.json",
-          "hash": "10616060546436571437"
-        },
-        {
-          "file": "apps/web/.gitignore",
-          "hash": "15751075988610075934"
-        },
-        {
-          "file": "apps/web/README.md",
-          "hash": "12205685531602560652"
-        },
-        {
-          "file": "apps/web/next.config.mjs",
-          "hash": "6567081978241091914"
-        },
-        {
-          "file": "apps/web/package.json",
-          "hash": "3678353490261779923",
-          "deps": [
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:eslint",
-            "npm:eslint-config-next@14.2.5",
-            "npm:postcss",
-            "npm:tailwindcss",
-            "npm:typescript@5.4.5",
-            "@autospace/sample-lib",
-            "npm:autoprefixer",
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/web/postcss.config.js",
-          "hash": "1579725330904862112"
-        },
-        {
-          "file": "apps/web/public/next.svg",
-          "hash": "8300767200008744458"
-        },
-        {
-          "file": "apps/web/public/vercel.svg",
-          "hash": "2376673330454856631"
-        },
-        {
-          "file": "apps/web/src/app/favicon.ico",
-          "hash": "9157999678830540297"
-        },
-        {
-          "file": "apps/web/src/app/globals.css",
-          "hash": "2866083945719690482"
-        },
-        {
-          "file": "apps/web/src/app/layout.tsx",
-          "hash": "2907880558065976372"
-        },
-        {
-          "file": "apps/web/src/app/page.tsx",
-          "hash": "15525797129536741291"
-        },
-        {
-          "file": "apps/web/tailwind.config.ts",
-          "hash": "776514114970524489"
-        },
-        {
-          "file": "apps/web/tsconfig.json",
-          "hash": "4320684160905164141"
-        }
-      ],
-      "@autospace/sample-lib": [
-        {
-          "file": "libs/sample-lib/index.ts",
-          "hash": "3876930869660554065"
-        },
-        {
-          "file": "libs/sample-lib/package.json",
-          "hash": "6993432985236782914"
-        },
-        {
-          "file": "libs/sample-lib/tsconfig.json",
-          "hash": "14590710882709848906"
         }
       ]
     }
