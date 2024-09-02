@@ -46,43 +46,6 @@
       }
     ],
     "projectFileMap": {
-      "@autospace/network": [
-        {
-          "file": "libs/network/codegen.ts",
-          "hash": "673003853108463620"
-        },
-        {
-          "file": "libs/network/package-lock.json",
-          "hash": "17876225660235604721"
-        },
-        {
-          "file": "libs/network/package.json",
-          "hash": "12794512137725901183",
-          "deps": [
-            "npm:react",
-            "npm:@graphql-codegen/cli",
-            "npm:@graphql-codegen/named-operations-object",
-            "npm:@graphql-codegen/typed-document-node",
-            "npm:@apollo/client"
-          ]
-        },
-        {
-          "file": "libs/network/src/config/apollo.tsx",
-          "hash": "11158244085075048020"
-        },
-        {
-          "file": "libs/network/src/gql/generated.tsx",
-          "hash": "10641843591233610742"
-        },
-        {
-          "file": "libs/network/src/gql/queries.graphql",
-          "hash": "4484131161109645357"
-        },
-        {
-          "file": "libs/network/tsconfig.json",
-          "hash": "12053352178282715962"
-        }
-      ],
       "@autospace/sample-lib": [
         {
           "file": "libs/sample-lib/index.ts",
@@ -95,80 +58,6 @@
         {
           "file": "libs/sample-lib/tsconfig.json",
           "hash": "14590710882709848906"
-        }
-      ],
-      "@autospace/web": [
-        {
-          "file": "apps/web/.eslintrc.json",
-          "hash": "10616060546436571437"
-        },
-        {
-          "file": "apps/web/.gitignore",
-          "hash": "14795959431407842278"
-        },
-        {
-          "file": "apps/web/README.md",
-          "hash": "1992404412951644809"
-        },
-        {
-          "file": "apps/web/next.config.mjs",
-          "hash": "3099306030354460128"
-        },
-        {
-          "file": "apps/web/package.json",
-          "hash": "5957381037828636678",
-          "deps": [
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:eslint",
-            "npm:eslint-config-next@14.2.5",
-            "npm:postcss",
-            "npm:tailwindcss",
-            "npm:typescript@5.4.5",
-            "@autospace/sample-lib",
-            "@autospace/network",
-            "npm:autoprefixer",
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/web/postcss.config.js",
-          "hash": "1579725330904862112"
-        },
-        {
-          "file": "apps/web/public/next.svg",
-          "hash": "8300767200008744458"
-        },
-        {
-          "file": "apps/web/public/vercel.svg",
-          "hash": "2376673330454856631"
-        },
-        {
-          "file": "apps/web/src/app/favicon.ico",
-          "hash": "9157999678830540297"
-        },
-        {
-          "file": "apps/web/src/app/globals.css",
-          "hash": "10582656168007810803"
-        },
-        {
-          "file": "apps/web/src/app/layout.tsx",
-          "hash": "2907880558065976372"
-        },
-        {
-          "file": "apps/web/src/app/page.tsx",
-          "hash": "15525797129536741291"
-        },
-        {
-          "file": "apps/web/tailwind.config.ts",
-          "hash": "776514114970524489"
-        },
-        {
-          "file": "apps/web/tsconfig.json",
-          "hash": "4320684160905164141"
         }
       ],
       "@autospace/api": [
@@ -190,7 +79,7 @@
         },
         {
           "file": "apps/api/README.md",
-          "hash": "15018899818891883319"
+          "hash": "3076710801678341246"
         },
         {
           "file": "apps/api/docker-compose.yml",
@@ -1123,6 +1012,117 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "1876265833229380624"
+        }
+      ],
+      "@autospace/network": [
+        {
+          "file": "libs/network/codegen.ts",
+          "hash": "673003853108463620"
+        },
+        {
+          "file": "libs/network/package-lock.json",
+          "hash": "17876225660235604721"
+        },
+        {
+          "file": "libs/network/package.json",
+          "hash": "12794512137725901183",
+          "deps": [
+            "npm:react",
+            "npm:@graphql-codegen/cli",
+            "npm:@graphql-codegen/named-operations-object",
+            "npm:@graphql-codegen/typed-document-node",
+            "npm:@apollo/client"
+          ]
+        },
+        {
+          "file": "libs/network/src/config/apollo.tsx",
+          "hash": "11158244085075048020"
+        },
+        {
+          "file": "libs/network/src/gql/generated.tsx",
+          "hash": "10641843591233610742"
+        },
+        {
+          "file": "libs/network/src/gql/queries.graphql",
+          "hash": "4484131161109645357"
+        },
+        {
+          "file": "libs/network/tsconfig.json",
+          "hash": "12053352178282715962"
+        }
+      ],
+      "@autospace/web": [
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "14795959431407842278"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "17700555159788556570"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "3099306030354460128"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "5957381037828636678",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next@14.2.5",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript@5.4.5",
+            "@autospace/sample-lib",
+            "@autospace/network",
+            "npm:autoprefixer",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/globals.css",
+          "hash": "10582656168007810803"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "2907880558065976372"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "15525797129536741291"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "776514114970524489"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
         }
       ]
     }
