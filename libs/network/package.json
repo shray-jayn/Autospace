@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.10.2",
-    "jsonwebtoken": "^9.0.2",
-    "@autospace/network": "file:"
+    "@autospace/network": "file:",
+    "jsonwebtoken": "^9.0.2"
   },
   "peerDependencies": {
     "react": "^18.3.1"
