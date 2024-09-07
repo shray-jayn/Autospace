@@ -14,6 +14,7 @@
     "@autospace/sample-lib": "*",
     "@autospace/ui": "*",
     "@autospace/web": "file:",
+    "@tabler/icons-react": "^3.14.0",
     "autoprefixer": "^10.4.20",
     "next": "14.2.5",
     "next-auth": "^4.24.7",
