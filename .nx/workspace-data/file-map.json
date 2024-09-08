@@ -13,20 +13,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "yarn.lock",
-        "hash": "1611524662599167676"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "3309188075304346290"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10654315332906694547"
+        "file": "README.md",
+        "hash": "8840258633690832595"
       },
       {
         "file": ".prettierrc",
         "hash": "15185374989492744169"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "17553373538878946914"
       },
       {
         "file": ".gitignore",
@@ -37,16 +33,20 @@
         "hash": "13780783282132288"
       },
       {
+        "file": "nx.json",
+        "hash": "10654315332906694547"
+      },
+      {
         "file": "package-lock.json",
         "hash": "7652867624783744996"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "17553373538878946914"
+        "file": ".husky/pre-commit",
+        "hash": "3309188075304346290"
       },
       {
-        "file": "README.md",
-        "hash": "8840258633690832595"
+        "file": "yarn.lock",
+        "hash": "2061531463656504586"
       }
     ],
     "projectFileMap": {
@@ -75,111 +75,66 @@
         {
           "file": "libs/forms/src/schemas.ts",
           "hash": "16014452263787135725"
+        },
+        {
+          "file": "libs/forms/src/searchGarages.tsx",
+          "hash": "10183113502573770039"
+        },
+        {
+          "file": "libs/forms/tsconfig.json",
+          "hash": "12053352178282715962"
         }
       ],
-      "@autospace/web": [
+      "@autospace/network": [
         {
-          "file": "apps/web/.env.example",
-          "hash": "6003783717403218802"
+          "file": "libs/network/codegen.ts",
+          "hash": "596092472759370737"
         },
         {
-          "file": "apps/web/.eslintrc.json",
-          "hash": "10616060546436571437"
+          "file": "libs/network/next-auth.d.ts",
+          "hash": "6929401787329986376"
         },
         {
-          "file": "apps/web/.gitignore",
-          "hash": "14795959431407842278"
+          "file": "libs/network/package-lock.json",
+          "hash": "11894992049883542789"
         },
         {
-          "file": "apps/web/README.md",
-          "hash": "17700555159788556570"
-        },
-        {
-          "file": "apps/web/next.config.mjs",
-          "hash": "3099306030354460128"
-        },
-        {
-          "file": "apps/web/package.json",
-          "hash": "10244904562703364156",
+          "file": "libs/network/package.json",
+          "hash": "16413782871599866796",
           "deps": [
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:eslint",
-            "npm:eslint-config-next",
-            "npm:postcss",
-            "npm:tailwindcss",
-            "npm:typescript",
-            "@autospace/network",
-            "@autospace/sample-lib",
-            "@autospace/ui",
-            "npm:@tabler/icons-react",
-            "npm:autoprefixer",
-            "npm:next",
-            "npm:next-auth",
             "npm:react",
-            "npm:react-dom"
+            "npm:@graphql-codegen/cli",
+            "npm:@graphql-codegen/named-operations-object",
+            "npm:@graphql-codegen/typed-document-node",
+            "npm:@parcel/watcher",
+            "npm:@types/jsonwebtoken",
+            "npm:@apollo/client",
+            "npm:jsonwebtoken"
           ]
         },
         {
-          "file": "apps/web/postcss.config.js",
-          "hash": "1579725330904862112"
+          "file": "libs/network/src/config/apollo.tsx",
+          "hash": "18065035441060385382"
         },
         {
-          "file": "apps/web/public/next.svg",
-          "hash": "8300767200008744458"
+          "file": "libs/network/src/config/authOptions.ts",
+          "hash": "9744023034218744097"
         },
         {
-          "file": "apps/web/public/user.png",
-          "hash": "16941821795138000203"
+          "file": "libs/network/src/fetch/index.ts",
+          "hash": "2908994720606023079"
         },
         {
-          "file": "apps/web/public/vercel.svg",
-          "hash": "2376673330454856631"
+          "file": "libs/network/src/gql/generated.tsx",
+          "hash": "7179609746584705517"
         },
         {
-          "file": "apps/web/src/app/about/page.tsx",
-          "hash": "16589847121499675601"
+          "file": "libs/network/src/gql/queries.graphql",
+          "hash": "1871425878431069797"
         },
         {
-          "file": "apps/web/src/app/api/auth/[...nextauth]/route.ts",
-          "hash": "6856419169857469093"
-        },
-        {
-          "file": "apps/web/src/app/api/auth/token/route.ts",
-          "hash": "17984012397210975190"
-        },
-        {
-          "file": "apps/web/src/app/favicon.ico",
-          "hash": "9157999678830540297"
-        },
-        {
-          "file": "apps/web/src/app/layout.tsx",
-          "hash": "11126362439246274654"
-        },
-        {
-          "file": "apps/web/src/app/login/page.tsx",
-          "hash": "14866151659755759388"
-        },
-        {
-          "file": "apps/web/src/app/page.tsx",
-          "hash": "1207322595823554739"
-        },
-        {
-          "file": "apps/web/src/app/register/page.tsx",
-          "hash": "17488438096447947484"
-        },
-        {
-          "file": "apps/web/tailwind.config.ts",
-          "hash": "16967495277415250122"
-        },
-        {
-          "file": "apps/web/tsconfig.json",
-          "hash": "4320684160905164141"
-        },
-        {
-          "file": "apps/web/types.d.ts",
-          "hash": "2811942231022728679"
+          "file": "libs/network/tsconfig.json",
+          "hash": "12053352178282715962"
         }
       ],
       "@autospace/api": [
@@ -684,6 +639,10 @@
           "hash": "6769604890093497765"
         },
         {
+          "file": "apps/api/src/models/garages/graphql/dtos/search-filter.input.ts",
+          "hash": "13277975504210642639"
+        },
+        {
           "file": "apps/api/src/models/garages/graphql/dtos/update-garage.input.ts",
           "hash": "7546356706032945141"
         },
@@ -697,7 +656,7 @@
         },
         {
           "file": "apps/api/src/models/garages/graphql/garages.resolver.ts",
-          "hash": "14946963364302942188"
+          "hash": "14087631345974711223"
         },
         {
           "file": "apps/api/src/models/garages/graphql/garages.service.ts",
@@ -853,7 +812,7 @@
         },
         {
           "file": "apps/api/src/models/slots/graphql/dtos/where.args.ts",
-          "hash": "5755455526091465676"
+          "hash": "4260584533937827296"
         },
         {
           "file": "apps/api/src/models/slots/graphql/entity/slot.entity.ts",
@@ -1117,7 +1076,7 @@
         },
         {
           "file": "apps/api/src/schema.gql",
-          "hash": "16827670697936424630"
+          "hash": "10876517553859208028"
         },
         {
           "file": "apps/api/test/app.e2e-spec.ts",
@@ -1134,58 +1093,6 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "1876265833229380624"
-        }
-      ],
-      "@autospace/network": [
-        {
-          "file": "libs/network/codegen.ts",
-          "hash": "596092472759370737"
-        },
-        {
-          "file": "libs/network/next-auth.d.ts",
-          "hash": "6929401787329986376"
-        },
-        {
-          "file": "libs/network/package-lock.json",
-          "hash": "11894992049883542789"
-        },
-        {
-          "file": "libs/network/package.json",
-          "hash": "16413782871599866796",
-          "deps": [
-            "npm:react",
-            "npm:@graphql-codegen/cli",
-            "npm:@graphql-codegen/named-operations-object",
-            "npm:@graphql-codegen/typed-document-node",
-            "npm:@parcel/watcher",
-            "npm:@types/jsonwebtoken",
-            "npm:@apollo/client",
-            "npm:jsonwebtoken"
-          ]
-        },
-        {
-          "file": "libs/network/src/config/apollo.tsx",
-          "hash": "18065035441060385382"
-        },
-        {
-          "file": "libs/network/src/config/authOptions.ts",
-          "hash": "9744023034218744097"
-        },
-        {
-          "file": "libs/network/src/fetch/index.ts",
-          "hash": "2908994720606023079"
-        },
-        {
-          "file": "libs/network/src/gql/generated.tsx",
-          "hash": "5714281447427280614"
-        },
-        {
-          "file": "libs/network/src/gql/queries.graphql",
-          "hash": "1871425878431069797"
-        },
-        {
-          "file": "libs/network/tsconfig.json",
-          "hash": "12053352178282715962"
         }
       ],
       "@autospace/ui": [
@@ -1211,7 +1118,7 @@
         },
         {
           "file": "libs/ui/package.json",
-          "hash": "12869640831819859133",
+          "hash": "15656823787358998826",
           "deps": [
             "npm:@types/node",
             "npm:@types/react",
@@ -1226,7 +1133,12 @@
             "npm:@headlessui/react",
             "npm:next@14.2.8",
             "npm:react",
-            "npm:react-dom"
+            "npm:react-dom",
+            "npm:react-map-gl",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@mui/material",
+            "npm:mapbox-gl"
           ]
         },
         {
@@ -1247,7 +1159,7 @@
         },
         {
           "file": "libs/ui/src/app/globals.css",
-          "hash": "10582656168007810803"
+          "hash": "13453412729399060383"
         },
         {
           "file": "libs/ui/src/app/layout.tsx",
@@ -1256,6 +1168,10 @@
         {
           "file": "libs/ui/src/app/page.tsx",
           "hash": "334034143564997744"
+        },
+        {
+          "file": "libs/ui/src/components/atoms/Autocomplete.tsx",
+          "hash": "2631273026340901042"
         },
         {
           "file": "libs/ui/src/components/atoms/Brand.tsx",
@@ -1274,6 +1190,10 @@
           "hash": "11773865927790994091"
         },
         {
+          "file": "libs/ui/src/components/atoms/Dialog.tsx",
+          "hash": "6134409037724057277"
+        },
+        {
           "file": "libs/ui/src/components/atoms/Form.tsx",
           "hash": "10119814195183772647"
         },
@@ -1290,8 +1210,16 @@
           "hash": "15611936887369854455"
         },
         {
+          "file": "libs/ui/src/components/atoms/ParkingIcon.tsx",
+          "hash": "5034911977287356336"
+        },
+        {
           "file": "libs/ui/src/components/molecules/AuthLayout.tsx",
           "hash": "4328824551671493663"
+        },
+        {
+          "file": "libs/ui/src/components/molecules/IconTypes.tsx",
+          "hash": "2980512032107186315"
         },
         {
           "file": "libs/ui/src/components/molecules/LogoutButton.tsx",
@@ -1314,12 +1242,52 @@
           "hash": "13772205472717001292"
         },
         {
+          "file": "libs/ui/src/components/organisms/map/CurrentLocationButton.tsx",
+          "hash": "8923651528552190697"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/Map.tsx",
+          "hash": "10678281436049781079"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/MapMarker.tsx",
+          "hash": "10577167791065958650"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/Panel.tsx",
+          "hash": "17547295360249551735"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/SearchPlacesBox.tsx",
+          "hash": "14828217191486140584"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/ZoomControls.tsx",
+          "hash": "14292658393930022187"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/map/map.css",
+          "hash": "6873615366755814396"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/search/GarageMarker.tsx",
+          "hash": "5385883588189101530"
+        },
+        {
+          "file": "libs/ui/src/components/organisms/search/ShowGarages.tsx",
+          "hash": "17033521106594198326"
+        },
+        {
           "file": "libs/ui/src/components/templates/LoginForm.tsx",
           "hash": "13896704420083736137"
         },
         {
           "file": "libs/ui/src/components/templates/RegisterForm.tsx",
           "hash": "11536812887688962766"
+        },
+        {
+          "file": "libs/ui/src/components/templates/SearchPage.tsx",
+          "hash": "9347811598416125581"
         },
         {
           "file": "libs/ui/src/styles/config.js",
@@ -1356,10 +1324,139 @@
           "hash": "14590710882709848906"
         }
       ],
+      "@autospace/web": [
+        {
+          "file": "apps/web/.env.example",
+          "hash": "631964354844325728"
+        },
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "14795959431407842278"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "17700555159788556570"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "3099306030354460128"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "17153964682461908489",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "@autospace/network",
+            "@autospace/sample-lib",
+            "@autospace/ui",
+            "npm:@tabler/icons-react",
+            "npm:next",
+            "npm:next-auth",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/user.png",
+          "hash": "16941821795138000203"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/about/page.tsx",
+          "hash": "16589847121499675601"
+        },
+        {
+          "file": "apps/web/src/app/api/auth/[...nextauth]/route.ts",
+          "hash": "6856419169857469093"
+        },
+        {
+          "file": "apps/web/src/app/api/auth/token/route.ts",
+          "hash": "17984012397210975190"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "11126362439246274654"
+        },
+        {
+          "file": "apps/web/src/app/login/page.tsx",
+          "hash": "14866151659755759388"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "10817460152580837333"
+        },
+        {
+          "file": "apps/web/src/app/register/page.tsx",
+          "hash": "17488438096447947484"
+        },
+        {
+          "file": "apps/web/src/app/search/page.tsx",
+          "hash": "6031963771089208747"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "16967495277415250122"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
+        },
+        {
+          "file": "apps/web/types.d.ts",
+          "hash": "2811942231022728679"
+        }
+      ],
       "@autospace/util": [
+        {
+          "file": "libs/util/constants.ts",
+          "hash": "474942991662045432"
+        },
+        {
+          "file": "libs/util/date.ts",
+          "hash": "6757909678281977280"
+        },
+        {
+          "file": "libs/util/hooks/async.ts",
+          "hash": "5625595127229105220"
+        },
         {
           "file": "libs/util/hooks/dialog.ts",
           "hash": "1238686928551521995"
+        },
+        {
+          "file": "libs/util/hooks/keys.ts",
+          "hash": "15976907566512513771"
+        },
+        {
+          "file": "libs/util/hooks/location.ts",
+          "hash": "17029679564999789924"
         },
         {
           "file": "libs/util/package-lock.json",
@@ -1371,7 +1468,7 @@
         },
         {
           "file": "libs/util/types.ts",
-          "hash": "13021961982522519703"
+          "hash": "6997272884153512889"
         }
       ]
     }
