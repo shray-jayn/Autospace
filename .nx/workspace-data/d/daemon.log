@@ -1,0 +1,696 @@
+[NX Daemon Server] - 2024-09-07T11:53:52.270Z - Started listening on: \\.\pipe\nx\C:\Users\HP\AppData\Local\Temp\008f0e811aa15c64915c\d.sock
+[NX Daemon Server] - 2024-09-07T11:53:52.282Z - [WATCHER]: Subscribed to changes within: C:\Y Combinator\Autospace (native)
+[NX Daemon Server] - 2024-09-07T11:53:52.288Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:53:52.291Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-07T11:53:52.297Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:53:52.307Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-07T11:53:52.314Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-07T11:53:52.315Z - Handled FORCE_SHUTDOWN. Handling time: 2. Response time: 8.
+[NX Daemon Server] - 2024-09-07T11:53:52.315Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-07T11:53:52.316Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (sources)
+[NX Daemon Server] - 2024-09-07T11:53:52.317Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (outputs)
+[NX Daemon Server] - 2024-09-07T11:54:37.967Z - Started listening on: \\.\pipe\nx\C:\Users\HP\AppData\Local\Temp\008f0e811aa15c64915c\d.sock
+[NX Daemon Server] - 2024-09-07T11:54:37.978Z - [WATCHER]: Subscribed to changes within: C:\Y Combinator\Autospace (native)
+[NX Daemon Server] - 2024-09-07T11:54:37.984Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:54:37.986Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-07T11:54:37.992Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:54:37.996Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-07T11:54:38.764Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-07T11:54:38.765Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T11:54:38.765Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T11:54:38.788Z - Time taken for 'loadNxPlugins' 736.9716ms
+[NX Daemon Server] - 2024-09-07T11:54:39.874Z - Time taken for 'build-project-configs' 1062.3413000000003ms
+[NX Daemon Server] - 2024-09-07T11:54:40.081Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-07T11:54:40.083Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-07T11:54:40.084Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-07T11:54:40.086Z - Time taken for 'total for creating and serializing project graph' 2087.5249999999996ms
+[NX Daemon Server] - 2024-09-07T11:54:40.088Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-07T11:54:40.088Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2088. Response time: 4.
+[NX Daemon Server] - 2024-09-07T11:54:40.232Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-09-07T11:54:40.232Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-09-07T11:54:40.233Z - Handled HASH_TASKS. Handling time: 35. Response time: 1.
+[NX Daemon Server] - 2024-09-07T11:54:56.368Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:54:56.369Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:54:56.369Z - Handled RECORD_OUTPUTS_HASH. Handling time: 20. Response time: 1.
+[NX Daemon Server] - 2024-09-07T11:55:12.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T11:55:12.155Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:12.155Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:12.155Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-07T11:55:12.195Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:12.196Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:12.196Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-07T11:55:14.079Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-09-07T11:55:14.080Z - Uploading file artifacts
+[NX Daemon Server] - 2024-09-07T11:55:14.080Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-09-07T11:55:14.082Z - Sending EndRun request
+[NX Daemon Server] - 2024-09-07T11:55:14.092Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-09-07T11:55:14.093Z - Handled PROCESS_IN_BACKGROUND. Handling time: 1633. Response time: 14.
+[NX Daemon Server] - 2024-09-07T11:55:14.485Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-07T11:55:16.339Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:55:16.341Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-07T11:55:16.344Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-07T11:55:16.351Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-07T11:55:16.353Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-07T11:55:16.355Z - Time taken for 'total for creating and serializing project graph' 1.3548999999984517ms
+[NX Daemon Server] - 2024-09-07T11:55:16.356Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-07T11:55:16.356Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 3.
+[NX Daemon Server] - 2024-09-07T11:55:16.528Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-09-07T11:55:16.529Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-09-07T11:55:16.529Z - Handled HASH_TASKS. Handling time: 22. Response time: 1.
+[NX Daemon Server] - 2024-09-07T11:55:18.126Z - Error when sending EndRun
+Error: This workspace is more than three days old and is not connected. Workspaces must be connected within 3 days of creation. Claim your workspace at https://cloud.nx.app
+    at Timeout._onTimeout (C:\Y Combinator\Autospace\.nx\cache\cloud\2408.29.11.hotfix8\lib\daemon\process-run-end.js:29:7100)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-09-07T11:55:24.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T11:55:32.485Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T11:55:33.791Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:33.791Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:33.791Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-07T11:55:40.575Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:40.575Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-09-07T11:55:40.575Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-07T11:55:41.816Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-09-07T11:55:41.816Z - Uploading file artifacts
+[NX Daemon Server] - 2024-09-07T11:55:41.816Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-09-07T11:55:41.817Z - Sending EndRun request
+[NX Daemon Server] - 2024-09-07T11:55:41.824Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-09-07T11:55:41.824Z - Handled PROCESS_IN_BACKGROUND. Handling time: 933. Response time: 8.
+[NX Daemon Server] - 2024-09-07T11:55:41.836Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-07T11:55:46.690Z - Error when sending EndRun
+Error: This workspace is more than three days old and is not connected. Workspaces must be connected within 3 days of creation. Claim your workspace at https://cloud.nx.app
+    at Timeout._onTimeout (C:\Y Combinator\Autospace\.nx\cache\cloud\2408.29.11.hotfix8\lib\daemon\process-run-end.js:29:7100)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-09-07T12:28:17.747Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.067Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.397Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.490Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.625Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.679Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.789Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.901Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:24.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.552Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.603Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.727Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:25.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.085Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.209Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.325Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.397Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.496Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.820Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:26.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.318Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.800Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:27.926Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.084Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.194Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.279Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.366Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.465Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.521Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.630Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.710Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.939Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:28.990Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.104Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.239Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.415Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.465Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.520Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.633Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.758Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:29.927Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.098Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.173Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.238Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.345Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.534Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.753Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.876Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:30.938Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.079Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.219Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.514Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.712Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.822Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:31.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.016Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.066Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.244Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:32.423Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:38.683Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:38.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:50.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.438Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.689Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.752Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.878Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.932Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:52.987Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.106Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.241Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.303Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.395Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.570Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.633Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.864Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.917Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:53.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.197Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.360Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.442Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.578Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.642Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.766Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.844Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:54.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.033Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.089Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.359Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.423Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.628Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.755Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:55.993Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.117Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.242Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.379Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.516Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.571Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.650Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.726Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:56.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.076Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.126Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.379Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.458Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.646Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.769Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.845Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:57.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.352Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.417Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.469Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.533Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.613Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.672Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:58.985Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.065Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.193Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.255Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.457Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.509Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.568Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.661Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.881Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:28:59.960Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.103Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.339Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.631Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.721Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.891Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:00.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.055Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.172Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.420Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.679Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.732Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:01.940Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.108Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.171Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.317Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.472Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.531Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.614Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.706Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.784Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:02.859Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.095Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.159Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.229Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.330Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.410Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.484Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.648Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:03.795Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:07.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:08.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:13.966Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:14.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:14.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:15.279Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:17.071Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:17.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:17.231Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:34.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:34.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:38.396Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:38.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:39.307Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:44.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:47.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:47.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:47.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:49.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:51.048Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:51.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:51.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:51.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:52.053Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:52.154Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:52.224Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:52.278Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:52.853Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:53.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:53.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:53.956Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.744Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.807Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:54.950Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:55.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:29:55.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.441Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.495Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.556Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.624Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.894Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:02.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.050Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.188Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.251Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.315Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.395Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.471Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.600Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.675Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.730Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.788Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.868Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:03.993Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.060Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.121Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.199Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.263Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.402Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.454Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.566Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.631Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.837Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:04.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.230Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.293Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.539Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.612Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.769Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.820Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:05.960Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.249Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.363Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.428Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.552Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.603Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.691Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.746Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.802Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.853Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.908Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:06.969Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.033Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.222Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.280Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.846Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:07.942Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.083Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.303Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.366Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.418Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.510Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.573Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.652Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.725Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.777Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.888Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:08.951Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.045Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.280Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.500Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.672Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.730Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.781Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.838Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:09.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.097Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.155Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.357Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.467Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.531Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.624Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.686Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.749Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:10.926Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:16.524Z - [WATCHER]: apps/api/src/schema.gql was modified
+[NX Daemon Server] - 2024-09-07T12:30:16.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:16.633Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-07T12:30:16.633Z - [REQUEST]: apps/api/src/schema.gql
+[NX Daemon Server] - 2024-09-07T12:30:16.634Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T12:30:16.643Z - Time taken for 'hash changed files from watcher' 1.2466000001877546ms
+[NX Daemon Server] - 2024-09-07T12:30:16.692Z - Time taken for 'build-project-configs' 38.16459999978542ms
+[NX Daemon Server] - 2024-09-07T12:30:16.788Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-07T12:30:16.789Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-07T12:30:16.790Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-07T12:30:16.790Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-07T12:30:16.791Z - Time taken for 'total execution time for createProjectGraph()' 82.66380000021309ms
+[NX Daemon Server] - 2024-09-07T12:30:30.400Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:35.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:43.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:47.265Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:57.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:57.096Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:30:57.157Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.550Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.611Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.852Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:07.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.043Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.171Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.226Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.280Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.363Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.418Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.585Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.637Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.874Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.925Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:08.987Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.051Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.162Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.226Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.277Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.335Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.618Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.789Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.914Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:09.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.072Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.332Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.385Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.438Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.511Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.565Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.707Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.879Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.932Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:10.983Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.037Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.100Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.166Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.217Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.275Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.561Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.701Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.844Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.905Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:11.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.075Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.377Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.457Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.521Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.726Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.886Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:12.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.109Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.347Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.528Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.586Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.761Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:13.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.062Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.175Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.232Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.310Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.512Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:14.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:19.000Z - [WATCHER]: apps/api/src/schema.gql was modified
+[NX Daemon Server] - 2024-09-07T12:31:19.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:19.205Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-07T12:31:19.205Z - [REQUEST]: apps/api/src/schema.gql
+[NX Daemon Server] - 2024-09-07T12:31:19.205Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T12:31:19.218Z - Time taken for 'hash changed files from watcher' 0.9580999999307096ms
+[NX Daemon Server] - 2024-09-07T12:31:19.258Z - Time taken for 'build-project-configs' 36.85009999992326ms
+[NX Daemon Server] - 2024-09-07T12:31:19.329Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-07T12:31:19.330Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-07T12:31:19.331Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-07T12:31:19.331Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-07T12:31:19.331Z - Time taken for 'total execution time for createProjectGraph()' 55.07180000003427ms
+[NX Daemon Server] - 2024-09-07T12:31:26.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.070Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.454Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:27.719Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:28.342Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:31:28.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:34:47.807Z - [WATCHER]: libs/network/src/gql/queries.graphql was modified
+[NX Daemon Server] - 2024-09-07T12:34:47.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:34:48.217Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-07T12:34:48.217Z - [REQUEST]: libs/network/src/gql/queries.graphql
+[NX Daemon Server] - 2024-09-07T12:34:48.218Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T12:34:48.234Z - Time taken for 'hash changed files from watcher' 1.5712000001221895ms
+[NX Daemon Server] - 2024-09-07T12:34:48.294Z - Time taken for 'build-project-configs' 48.99940000008792ms
+[NX Daemon Server] - 2024-09-07T12:34:48.438Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-07T12:34:48.440Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-07T12:34:48.442Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-07T12:34:48.443Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-07T12:34:48.444Z - Time taken for 'total execution time for createProjectGraph()' 100.20949999988079ms
+[NX Daemon Server] - 2024-09-07T12:36:28.730Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:28.735Z - [WATCHER]: apps/api/src/models/garages/graphql/garages.resolver.ts was modified
+[NX Daemon Server] - 2024-09-07T12:36:29.566Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-07T12:36:29.567Z - [REQUEST]: apps/api/src/models/garages/graphql/garages.resolver.ts
+[NX Daemon Server] - 2024-09-07T12:36:29.567Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-07T12:36:29.602Z - Time taken for 'hash changed files from watcher' 1.7601000000722706ms
+[NX Daemon Server] - 2024-09-07T12:36:29.694Z - Time taken for 'build-project-configs' 76.41260000038892ms
+[NX Daemon Server] - 2024-09-07T12:36:29.890Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-07T12:36:29.891Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-07T12:36:29.893Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-07T12:36:29.893Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-07T12:36:29.894Z - Time taken for 'total execution time for createProjectGraph()' 157.56359999999404ms
+[NX Daemon Server] - 2024-09-07T12:36:33.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:33.282Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:33.332Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:33.489Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:48.846Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-07T12:36:48.846Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (sources)
+[NX Daemon Server] - 2024-09-07T12:36:48.846Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (outputs)
+[NX Daemon Server] - 2024-09-07T12:36:48.850Z - Server stopped because: "LOCK_FILES_CHANGED"
