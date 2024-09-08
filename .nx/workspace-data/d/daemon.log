@@ -694,3 +694,14 @@ Error: This workspace is more than three days old and is not connected. Workspac
 [NX Daemon Server] - 2024-09-07T12:36:48.846Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (sources)
 [NX Daemon Server] - 2024-09-07T12:36:48.846Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (outputs)
 [NX Daemon Server] - 2024-09-07T12:36:48.850Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-09-08T06:34:54.043Z - Started listening on: \\.\pipe\nx\C:\Users\HP\AppData\Local\Temp\008f0e811aa15c64915c\d.sock
+[NX Daemon Server] - 2024-09-08T06:34:54.064Z - [WATCHER]: Subscribed to changes within: C:\Y Combinator\Autospace (native)
+[NX Daemon Server] - 2024-09-08T06:34:54.073Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-08T06:34:54.076Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-08T06:34:54.082Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-08T06:34:54.090Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-08T06:34:54.096Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-08T06:34:54.097Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 7.
+[NX Daemon Server] - 2024-09-08T06:34:54.098Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-08T06:34:54.099Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (sources)
+[NX Daemon Server] - 2024-09-08T06:34:54.099Z - [WATCHER]: Stopping the watcher for C:\Y Combinator\Autospace (outputs)
