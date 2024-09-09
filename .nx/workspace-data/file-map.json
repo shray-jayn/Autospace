@@ -13,40 +13,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "7652867624783744996"
-      },
-      {
         "file": "tsconfig.json",
         "hash": "17553373538878946914"
-      },
-      {
-        "file": "package.json",
-        "hash": "13780783282132288"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "3309188075304346290"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "15185374989492744169"
-      },
-      {
-        "file": "README.md",
-        "hash": "8840258633690832595"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "2061531463656504586"
       },
       {
         "file": ".gitignore",
         "hash": "8258668164414709802"
       },
       {
+        "file": "yarn.lock",
+        "hash": "2061531463656504586"
+      },
+      {
+        "file": "package.json",
+        "hash": "13780783282132288"
+      },
+      {
         "file": "nx.json",
         "hash": "10654315332906694547"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "15185374989492744169"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "3309188075304346290"
+      },
+      {
+        "file": "README.md",
+        "hash": "9383568174200241605"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "7652867624783744996"
       }
     ],
     "projectFileMap": {
