@@ -1,3 +1,13 @@
+/**
+ * This file defines the GraphQL resolver for handling user-related queries and mutations.
+ * 
+ * - Handles user registration, login, updating, and deleting users.
+ * - Includes queries like `whoami` (for the authenticated user), `findAll` (to fetch users), and `findOne` (to fetch a specific user).
+ * - Resolve fields (`admin`, `manager`, `valet`, `customer`) are used to retrieve related entities for the user.
+ * - Enforces row-level permissions to ensure users can only modify or delete their own data.
+ */
+
+
 import {
   Resolver,
   Query,

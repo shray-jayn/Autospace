@@ -1,3 +1,12 @@
+/**
+ * This file contains the REST API controller for handling user-related operations.
+ * 
+ * - Handles CRUD operations for users: create, read, update, and delete.
+ * - Uses `PrismaService` to interact with the database.
+ * - Enforces authentication and row-level permissions with custom decorators and utilities.
+ * - Supports pagination, sorting, and searching for user queries.
+ */
+
 import {
   Controller,
   Get,

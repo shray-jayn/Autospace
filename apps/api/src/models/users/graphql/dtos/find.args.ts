@@ -1,3 +1,12 @@
+/**
+ * This file defines arguments for querying users in GraphQL.
+ * 
+ * - `FindManyUserArgsStrict`: Arguments for querying many users, including filtering, sorting, pagination, and uniqueness.
+ * - `FindManyUserArgs`: Flexible version of the query arguments where all fields are optional.
+ * - `FindUniqueUserArgs`: Arguments for querying a single user by their unique fields, like `uid`.
+ */
+
+
 import {
   ArgsType,
   Field,

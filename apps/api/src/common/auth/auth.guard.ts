@@ -1,3 +1,13 @@
+/**
+ * This file implements the AuthGuard for handling authentication and authorization.
+ * 
+ * - `canActivate`: Checks if the user is authenticated and authorized to access a route.
+ * - `authenticateUser`: Verifies the JWT token from the request and loads the user from the database.
+ * - `authorizeUser`: Ensures the user has the required roles for the route.
+ * - `getUserRoles`: Retrieves roles associated with the user (admin, manager, valet) from the database.
+ */
+
+
 import {
   CanActivate,
   ExecutionContext,

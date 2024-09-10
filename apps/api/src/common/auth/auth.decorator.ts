@@ -1,3 +1,11 @@
+/**
+ * This file contains custom authentication and authorization decorators
+ * for use with the NestJS framework and GraphQL.
+ * 
+ * - `AllowAuthenticated`: Decorator to restrict access to authenticated users with specific roles.
+ * - `GetUser`: Custom decorator to extract the authenticated user from the GraphQL context.
+ */
+
 import {
   SetMetadata,
   UseGuards,

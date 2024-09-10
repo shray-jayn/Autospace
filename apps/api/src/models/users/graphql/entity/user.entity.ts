@@ -1,3 +1,11 @@
+/**
+ * This file defines GraphQL object types for the `User` and `AuthProvider` entities.
+ * 
+ * - `User`: Represents a user in the system, with fields such as `uid`, `createdAt`, `name`, and `image`.
+ * - `AuthProvider`: Represents the authentication provider for a user, including the type (e.g., Google, email/password).
+ * - Uses `RestrictProperties` to ensure compatibility with the Prisma `User` type while excluding certain fields.
+ */
+
 import { Field, ObjectType } from '@nestjs/graphql';
 import { $Enums, User as UserType } from '@prisma/client';
 import { RestrictProperties } from 'src/common/dtos/common.input';

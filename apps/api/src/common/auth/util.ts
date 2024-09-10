@@ -1,3 +1,10 @@
+/**
+ * This file contains utility functions related to authentication and authorization.
+ * 
+ * - `checkRowLevelPermission`: Enforces row-level security by ensuring that the
+ *    authenticated user has permission to access or modify a specific record.
+ */
+
 import { GetUserType, Role } from 'src/common/types';
 import { ForbiddenException } from '@nestjs/common';
 

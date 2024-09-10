@@ -1,3 +1,13 @@
+/**
+ * This file defines input types for sorting users in GraphQL queries.
+ * 
+ * - `UserOrderByWithRelationInputStrict`: Defines sorting criteria based on user fields and relations like `Customer`, `Manager`, and `Valet`.
+ * - `UserOrderByWithRelationInput`: Flexible version of sorting input with optional fields.
+ * - `UserOrderByRelationAggregateInput`: Allows sorting by aggregate counts (e.g., count of related records).
+ */
+
+
+
 import { Field, InputType, PartialType } from '@nestjs/graphql';
 import { Prisma } from '@prisma/client';
 import { RestrictProperties } from 'src/common/dtos/common.input';

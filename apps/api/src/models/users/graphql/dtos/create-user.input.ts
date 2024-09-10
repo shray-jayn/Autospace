@@ -1,3 +1,12 @@
+/**
+ * This file defines input types for creating a user in GraphQL.
+ * 
+ * - `RegisterWithProviderInput`: For registering a user using an external authentication provider.
+ * - `RegisterWithCredentialsInput`: For registering a user using email and password.
+ * - `LoginInput`: For logging in with email and password.
+ * - `LoginOutput`: Defines the structure of the response after logging in, including the token and user information.
+ */
+
 import {
   Field,
   InputType,

@@ -1,3 +1,12 @@
+/**
+ * This file defines input types for filtering users in GraphQL queries.
+ * 
+ * - `UserWhereUniqueInput`: Used to filter users by unique fields like `uid`.
+ * - `UserWhereInputStrict`: Defines filtering options based on user fields and relations. 
+ *    Supports logical operators like `AND`, `OR`, and `NOT`.
+ * - `UserListRelationFilter`: Filter users based on related entities like `Customer`, `Manager`, or `Valet`.
+ */
+
 import { InputType, PartialType } from '@nestjs/graphql';
 import { Prisma } from '@prisma/client';
 import {

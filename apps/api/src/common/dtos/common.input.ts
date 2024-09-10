@@ -1,3 +1,12 @@
+/**
+ * This file contains input types for GraphQL queries and mutations, 
+ * implementing filters for various data types, such as `DateTimeFilter`, 
+ * `StringFilter`, `IntFilter`, and more.
+ * 
+ * - It also registers Prisma enums with GraphQL for use in queries.
+ * - Commonly used to handle filtering and sorting logic in GraphQL queries.
+ */
+
 import {
   ArgsType,
   Field,

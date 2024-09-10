@@ -1,3 +1,16 @@
+/**
+ * UsersService handles all user-related operations, including registration, authentication,
+ * and basic CRUD functionalities. It leverages Prisma for database interactions and JWT for
+ * authentication tokens.
+ * 
+ * Key Features:
+ * - Register users via credentials or external authentication providers.
+ * - Authenticate users and generate JWT tokens.
+ * - Securely hash and verify passwords using bcrypt.
+ * - Perform CRUD operations on user data with proper error handling.
+
+ */
+
 import {
   BadRequestException,
   Injectable,
